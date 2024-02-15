@@ -1,3 +1,8 @@
-N = int(input())
-for i in range(1,N+1):
-    print(i**2)
+def Squares(N):
+    for i in range(N+1):
+        yield i**2
+lim = int(input())
+
+for i in Squares(lim):
+    print(i)
+
