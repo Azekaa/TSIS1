@@ -82,7 +82,7 @@ movies = [
 }
 ]
 
-print(goodmovie(movies[0]))
+print(goodmovie(movies[7]))
 
 
 

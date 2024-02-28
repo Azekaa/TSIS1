@@ -1,7 +1,7 @@
 
 import random
 
-x = random.randint(1,20) 
+x = random.randint(1,10) 
 name = input("Hello! What is your name?")
 cnt = 0 
 while True: 
@@ -16,5 +16,5 @@ while True:
         print("Your guess is too high. Take a guess.") 
         cnt += 1 
     elif x == b: 
-        print(f"Good job, {name}! You guessed my number in {cnt} guesses!") 
+        print(f"Good job, {name}! You guessed my number in {cnt} try!") 
         break

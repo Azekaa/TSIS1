@@ -5,7 +5,7 @@ def cat(movies, a):
         if a == x['category']:
             category_list.append(x['name'])
     return category_list
-movies = [
+movies = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 {
 "name": "Usual Suspects", 
 "imdb": 7.0,

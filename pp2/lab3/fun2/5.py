@@ -7,7 +7,6 @@ def category(movies, a):
             lencnt += 1
     cnt = cnt / lencnt
     return round(cnt,2)
-a = input("Select category")
 movies = [
 {
 "name": "Usual Suspects", 
@@ -82,9 +81,9 @@ movies = [
 {
 "name": "We Two",
 "imdb": 7.2,
-"category": "Romance"
+"category": "Romance",
 }
 ]
 
-
+a = input("Select category")
 print("Average IMDB:", category(movies, a))

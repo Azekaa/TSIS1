@@ -798,6 +798,7 @@ str_json = """
     ]
 }
 """
+
 data = json.loads(str_json)
 interface=data['imdata']
 print("Interface Status")
@@ -808,4 +809,6 @@ for x in interface:
     dn = x['l1PhysIf']['attributes']['dn']
     speed = x['l1PhysIf']['attributes']['speed']
     mtu = x['l1PhysIf']['attributes']['mtu']
-    print(f"{dn:<72} inherit   {mtu:<6} ")
+    print(f"{dn:<72}  {speed}  {mtu:<6} ")
+         
+
